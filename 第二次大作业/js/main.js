@@ -21,15 +21,6 @@ function wowodiao(container,screenName)
 	screenin.classList.add("screen");
 	screenin.setAttribute("id",screenName);
 	contain2.appendChild(screenin);
-	function ss(name,a,b,c){
-		this.name=name;
-		this.innerHTML=a;
-		this.create=function()
-		this.onclick=function{
-			c
-		}
-	}
-	var ssss=new ss(button,"%",);
 	var but1=document.createElement("button");
 	but1.innerHTML="%";
 	contain2.appendChild(but1);
@@ -53,7 +44,7 @@ function wowodiao(container,screenName)
 		pinf(this);
 	}
 	var but4=document.createElement("button");
-	but4.		="1/x";
+	but4.innerHTML="1/x";
 	but4.name="upDown";
 	contain2.appendChild(but4);
 	but4.onclick=function()
