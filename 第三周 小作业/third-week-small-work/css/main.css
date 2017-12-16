@@ -1,0 +1,169 @@
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+    body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+    td,th,caption { font-size:14px; }
+    h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+    address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+    a { color:#555; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    img { border:none; }
+    ol,ul,li { list-style:none; }
+    input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+    table { border-collapse:collapse; }
+    html {overflow-y: scroll;} 
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+    .clearfix { *zoom:1; }
+
+
+
+.main{
+
+	height: 1000px;
+	background: rgb(51,51,51);
+	font-family: "微软雅黑","Microsoft YaHei",simsun，sans-serif;
+}
+.main-header img{
+	width: 160px;
+	height: auto;
+	transition:width 0.16s ,height 0.16s ,transform 0.16s;
+	-ms-transition:width 0.16s, height 0.16s, -ms-transform 0.16s;   /* IE 9浏览器 */
+    -moz-transition:width 0.16s ,height 0.16s, -moz-transform 0.16s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.16s, height 0.16s, -o-transform 0.16s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.16s, height 0.16s, -webkit-transform 0.16s;/*Safari浏览器兼容*/
+}
+.main-header{
+	width: 170px;
+	height: 170px;
+	margin: 0px auto;    
+}
+	
+.main-header img:hover{
+	width: 175px;
+	transform-origin:50% 50%;
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);	/* IE 9 */
+	-webkit-transform: rotate(360deg);	/* Safari 和 Chrome */
+	-o-transform: rotate(360deg);	/* Opera */
+	-moz-transform: rotate(360deg);	/* Firefox */
+	
+}
+.main-bottom{
+	border: 2px solid rgb(214,214,214);
+	width: 150px;
+	padding-left: 20px;
+	height: 42px;
+	margin: 0px auto;
+	color: rgb(47,179,106);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 42px;
+	position: relative;
+}
+.dot_1{
+	position: absolute;
+	top: -1px;
+	left: -100px;
+	height: 1px;
+	width: 1px;
+	transition:width 0.1s ,height 0.1s ,transform 0.1s;
+	-ms-transition:width 0.1s, height 0.1s, -ms-transform 0.1s;   /* IE 9浏览器 */
+    -moz-transition:width 0.1s ,height 0.1s, -moz-transform 0.1s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.1s, height 0.1s, -o-transform 0.1s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.1s, height 0.1s, -webkit-transform 0.1s;/*Safari浏览器兼容*/
+	
+}
+.main-bottom:hover >.dot_1 {
+	width: 25px;
+	background: white;		
+	transform: translateX(72px);
+
+}
+.dot_2{
+	position: absolute;
+	top: -70px;
+	right: -2px;
+	height: 1px;
+	width: 1px;
+	transition:width 0.1s ,height 0.1s ,transform 0.1s;
+	-ms-transition:width 0.1s, height 0.1s, -ms-transform 0.1s;   /* IE 9浏览器 */
+    -moz-transition:width 0.1s ,height 0.1s, -moz-transform 0.1s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.1s, height 0.1s, -o-transform 0.1s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.1s, height 0.1s, -webkit-transform 0.1s;/*Safari浏览器兼容*/
+	
+}
+.main-bottom:hover >.dot_2{
+	height: 25px;
+	transform: translateY(52px);
+	background: white;
+}
+.dot_3{
+	position: absolute;
+	left: -2px;
+	top: 100px;
+	height: 1px;
+	width: 1px;
+	transition:width 0.1s ,height 0.1s ,transform 0.1s;
+	-ms-transition:width 0.1s, height 0.1s, -ms-transform 0.1s;   /* IE 9浏览器 */
+    -moz-transition:width 0.1s ,height 0.1s, -moz-transform 0.1s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.1s, height 0.1s, -o-transform 0.1s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.1s, height 0.1s, -webkit-transform 0.1s;/*Safari浏览器兼容*/
+	
+}
+.main-bottom:hover >.dot_3 {
+	height: 30px;
+	transform: translateY(-62px);
+	background: white;
+}
+.dot_4{
+	position: absolute;
+	top: 42px;
+	right: -100px;
+	height: 0.5px;
+	width: 1px;
+	transition:width 0.1s ,height 0.1s ,transform 0.1s;
+	-ms-transition:width 0.1s, height 0.1s, -ms-transform 0.1s;   /* IE 9浏览器 */
+    -moz-transition:width 0.1s ,height 0.1s, -moz-transform 0.1s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.1s, height 0.1s, -o-transform 0.1s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.1s, height 0.1s, -webkit-transform 0.1s;/*Safari浏览器兼容*/	
+}
+.main-bottom:hover >.dot_4 {
+	width: 25px;
+	transform: translateX(-72px);
+	background: white;	
+
+}
+.arrow {
+	margin-top: 3px;
+}
+.word{
+	float: left;
+	width: 100px;
+	transition:width 0.3s ,height 0.3s ,transform 0.3s;
+	-ms-transition:width 0.3s, height 0.3s, -ms-transform 0.3s;   /* IE 9浏览器 */
+    -moz-transition:width 0.3s ,height 0.3s, -moz-transform 0.3s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 0.3s, height 0.3s, -o-transform 0.3s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 0.3s, height 0.3s, -webkit-transform 0.3s;/*Safari浏览器兼容*/
+}
+
+.main-bottom:hover >.word{
+	width: 110px;
+	
+}
+.try{
+	padding-right: 50px;
+	background-image: url(../images/allow.png);
+	background-repeat: no-repeat;
+	background-position:20px 30px;
+	width: 200px;
+	height: 100px;
+}
+.try:hover{
+	width: 300px;
+	background-image: url(../images/allow.png);
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+	transition:width 3s ,height 3s ,transform 3s;
+	-ms-transition:width 3s, height 3s, -ms-transform 3s;   /* IE 9浏览器 */
+    -moz-transition:width 3s ,height 3s, -moz-transform 3s; /*老版本火狐浏览器兼容*/
+    -o-transition:width 3s, height 3s, -o-transform 3s;/* Opera与Chrom浏览器兼容*/
+    -webkit-transition:width 3s, height 3s, -webkit-transform 3s;/*Safari浏览器兼容*/
+}
