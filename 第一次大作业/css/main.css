@@ -1,0 +1,1371 @@
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+    body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+    td,th,caption { font-size:14px; }
+    h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+    address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+    a { color:#555; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    img { border:none; }
+    ol,ul,li { list-style:none; }
+    input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+    table { border-collapse:collapse; }
+    html {overflow-y: scroll;} 
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+    .clearfix { *zoom:1; }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    font-family: "Helvetica","Hiragino Sans GB","arial","微软雅黑","Microsoft YaHei",simsun，sans-serif;
+}
+
+.main-help-list,.header_2::before {
+content : " ";
+display : table;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(0,112,201);
+}
+a:hover,.main-class-word a:hover,.main-care a:hover,.main-maintain a:hover,.help-list-part span:hover,.main-update-word_1:hover,.main-update-word_2:hover,.footer-bottom-word:hover{
+    text-decoration:underline;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: 68px;
+}
+h2{
+    font-size: 34px;
+    font-weight: 500;
+    color: black;
+}
+h3{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 13.3px;
+}
+h4{
+    font-size: 140%;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 70%;
+    color: rgb(51,51,51);
+    font-weight: 600;
+}
+.header{
+    height: 680px;
+    /*width: 100%;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-image: url(../images/homepage-hero.image.large_2x.jpg) ;
+}
+.header-top-nav{
+    height: 44px;
+    background-color: rgba(0,0,0,0.8); 
+
+}
+.header-top-nav ul{
+    width: 1020px;
+    margin:0px auto;
+    overflow: hidden;
+    
+}
+.header-top-nav li{
+    list-style: none; 
+    float: left;
+    line-height: 44px;
+    font-size: 15px;   
+}
+ .header-middle img{
+    display: none;
+    float: right;
+}
+.top-nav-apple{
+    width: 25px;
+    height: 44px;
+    margin-right:43px;
+    margin-left: 22px;
+    background-image: url(../images/image_large.svg);
+    background-repeat: no-repeat;
+}
+.top-nav-apple:hover{
+    opacity:0.7;
+}
+.top-nav-search{
+    width: 25px;
+    height: 42px;
+    background-image: url(../images/image_large_1.svg);
+    background-repeat: no-repeat;
+    background-position: center 1px;
+}
+.top-nav-search:hover{
+    opacity:0.7;
+}
+.top-nav-shop{
+    width: 25px;
+    height: 44px;
+    margin-left: 43px;
+    /*margin-left: 22px;*/
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(../images/image_large_2.svg);
+}
+.top-nav-shop:hover{
+    opacity:0.7;
+}
+.header-top-nav a{
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+}
+.header-top-nav a:hover{
+    color: rgb(168,168,168);
+}
+.top-nav-other,.top-nav-search{
+    margin:0px 43px;
+}
+.header-middle{
+    width: 980px;
+    border-bottom: 1px solid rgb(174,165,154);
+    margin:0px auto;
+    padding-bottom: 10.8px;
+    margin-top: 15.8px;
+}
+::-webkit-span { /* WebKit browsers */
+font-weight:500;
+}
+.header-middle-tit{
+    color: white;
+    width: 41.33px;
+    height: 23.33px;
+    
+    font-size: 125%;
+
+    font-weight: 600;
+}
+
+.header-middle-right{
+    float: right;
+    margin-top: 3px; 
+}
+.header-middle-other_1,.header-middle-other_2{
+    color: white;
+    font-size: 65%;
+    text-decoration: none;
+}
+.header-middle-other_2{
+    margin-left: 20px;
+}
+.header-middle-other_2:hover,.header-middle-other_1:hover{
+    color:rgb(87,187,255);
+    text-decoration: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color:#999;font-size:20px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#999;font-size:20px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#999;font-size:20px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#999;font-size:20px;
+}
+.header-bottom{
+    position: absolute;
+    top: 100px;
+    margin: 0px auto;
+    width: 980px;
+    /*width: 600*/
+    left: 0px;
+    right: 0px;
+}
+.header-bottom p{
+    margin-top: 19px;
+    text-align: center;
+    color: white;
+    font-size: 120%;
+    font-weight: 300;
+
+}
+.button_1{
+    display: block;
+    width:50px;
+    height: 50px;
+    background-position: center center;
+    background-size: 50%;
+    background-color: transparent;
+    background-image:url(../images/search_icon_black.svg);
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.bottom-search{
+    margin: 0px auto;
+    width: 656px;
+    margin-top: 26px;
+    position: relative;
+}
+.bottom-search-right{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 52px;
+    background-repeat: no-repeat; 
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    outline: none;
+} 
+
+.main-help h2{
+    text-align: center;
+    margin-top: 45.9px;
+    margin-bottom: 47.9px;
+}
+.main-help-list{
+    margin: 0px auto;
+    width: 1024px; 
+    clear: both;
+}
+.help-list-part{
+    width: 170.6px;
+    height: 105.8px;
+      margin-bottom: 40.6px;
+    float: left;
+    
+}
+.help-list-part img{
+    width: 66px;
+    height: 66px;
+}
+.help-list-picture{
+    width: 66px;
+    height: 66px;
+    margin: 0px auto;
+}
+.help-list-part span{
+    text-align: center;
+    display: block;
+    margin-top: 16.6px;
+    font-size: 17px;
+}
+.help-list-part a{
+    text-decoration: none;
+    color: black;
+}
+.main-prolist{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgb(222,222,222);
+    border-bottom: 1px solid rgb(222,222,222);
+}
+.main-update-list{
+    width: 100%;
+    border-bottom: 1px solid rgb(222,222,222);
+}
+.update-list{
+    width: 900px;
+    height: 360px;
+    margin: 0px auto; 
+}
+.main-update{
+    width: 410px;
+    height:325px; 
+    float: left;
+}
+.main-update h2{
+    margin-top: 45.9px;
+    margin-bottom: 23px;
+}
+.main-update p{
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(51,51,51);
+}
+.main-update-word_1,.main-update-word_2{
+    color: rgb(0,112,201);
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 32.5px;
+    display: block;
+}
+.main-update-word_2{  
+    margin-top: 16.3px;
+}
+.update-list img{
+    width: 410px;
+    height:auto;
+}
+.main-update-picture{
+    width: 410px;
+    height:auto;
+    margin-top: 40px;
+    float: left;        
+}
+.main-maintain{
+    width: 1015px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(222,222,222);
+}
+.main-maintain a{
+    color: rgb(0,112,201);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.main-maintain-know{
+    width: 510px;
+    height: 405.8px;
+    float: left;
+    
+}
+.main-maintain-know img{
+    width: 230px;
+    height: auto;
+}
+.main-maintain-do img{
+    width: 230px;
+    height: auto;
+}
+.maintain-know-word{
+    margin-left: 25px;
+    width: 400px;
+}
+.maintain-do-word{
+    width: 410px;
+    margin-left: 25px;
+}
+.maintain-know-picture,.maintain-do-picture{
+   width: 240px;
+   margin: 0px auto;
+   margin-top: 18.3px;
+   margin-bottom: 15px;
+}
+.main-maintain-know p,.main-maintain-do p{
+    font-size: 90%;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+.main-maintain-do{
+    width: 500px;
+    height: 405.8px;
+    float: left;
+    
+}
+.main-care{
+    width: 800px;
+    margin: 0px auto;
+}
+.main-care h4{
+    color: black;
+    font-size: 135%;
+    font-weight: 400;
+    margin-bottom: 13.3px;
+    text-align: center;
+    margin-top: 37.5px;
+}
+.main-care p{
+    font-size: 90%;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+.main-care a{
+    color: rgb(0,112,201);
+    font-weight: 300;
+    text-decoration: none;
+}
+.main-class{
+    width: 100%;
+    background-image: url(../images/today-at-apple-workshop-banner.image.large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 516px;
+    margin-top: 40px;
+    background-position: center;
+}
+.main-class-all{
+    width: 100%;
+    position: relative;
+}
+.main-class-word{
+    position: absolute;
+    top: 160px;
+    width: 100%;
+}
+.class-word{
+
+    padding-right: 600px;
+    margin: 0px auto;
+    width: 360px;
+}
+.main-class-word h2{
+    color: white;
+    font-weight: 600; 
+    margin-bottom: 10px;  
+    width: 300px;
+}
+.main-class-word p{
+    font-size: 90%;
+    line-height: 25px;
+    color: white;
+}
+.main-class-word a{
+    font-size: 90%;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(0,112,201);
+}
+.main-class-word a span{
+    display: block;
+    margin-top: 15px;
+}
+.talk-other-word,.talk-profession-word{
+    margin-bottom: 15px;
+}
+.main-talk{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(222,222,222);
+
+}
+.main-talk-list{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.main-talk-other{
+    width: 430px;
+    height: 450px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 70px;
+
+}
+.talk-other-picture,.talk-profession-picture{
+    margin: 0px auto;
+    width: 400px;
+    margin-bottom: 15px;
+}
+.talk-other-picture img{
+    width: 390px;
+    height: auto;
+}
+.main-talk-profession{
+    width: 500px;
+    height: 450px;
+    float: left;
+    margin-top: 40px;
+}
+.talk-profession-picture img{
+    width: 390px;
+    height: auto;
+}
+.main-protect{
+    height: 250px;
+    width: 830px;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
+.main-protect h3{
+    margin-top: 40px;
+    font-size: 27px;
+}
+.main-protect img{
+    width: 150px;
+    height: auto;
+    display: block;
+    float: right;
+    margin-top: 40px;
+}
+.main-protect-word{
+    width: 450px;
+    float: left;
+}
+.talk-profession-word{
+    margin-left: 20px;
+    width: 450px;
+}
+.main-policy{
+    width: 980px;
+    height: 150px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(222,222,222);
+    border-top: 1px solid rgb(222,222,222);
+
+}
+.main-policy h4{
+    font-size: 140%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.main-policy p,.main-accident p{
+    text-align: center;
+}
+.main-accident{
+    width: 980px;
+    height: 140px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(222,222,222);
+}
+.main-accident h2{
+    margin-top: 47.9px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.main-change{
+    height: 340px;
+    width: 447px;
+    margin: 0px auto;
+}
+.main-change li{
+    list-style:none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 110%;
+
+}
+.footer{
+    width: 100%;
+    height: 320px;
+    background: rgb(242,242,242);
+    overflow: hidden;
+}
+.footer-in{
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    
+}
+.footer-tit{
+    height: 25px;
+    margin-top: 20px;
+}
+.footer-tit-picture{
+    height: 15px;
+    background-image: url(../images/icon_large.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.footer-tit-picture:hover{
+    background-image: url(../images/icon_large.svg);
+    background-repeat: no-repeat;
+    background-position: 0px -18px;
+}
+.footer-tit-punctuation{
+    background-image: url(../images/icon_large_separator.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.footer-tit-support{
+    color: rgb(85,85,85);
+    font-size: 80%;
+}
+.footer-tit-picture{
+    font-size: 100%;
+}
+.footer-body{
+    height: 215px;
+    /*width: 980px;*/
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(222,222,222);
+}
+.footer-body-part{
+    width: 245px;
+    height: 175px;
+    float: left;
+    margin-top: 20px;
+    
+}
+.footer-body-part h5{
+     font-size: 10px;
+}
+.footer-body-part ul{
+    font-size: 70%;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.footer-body-part a{
+    color: rgb(51,51,51);
+    font-size: 10px;
+}
+.footer-body-bottom{
+    margin-bottom: 10px;
+    height: 20px;
+    clear: left;
+}
+.footer-body-bottom p{
+    font-size: 10px;
+    color: rgb(136,136,136); 
+}
+.footer-body-bottom p a{
+    font-size: 10px;
+}
+.footer-bottom{
+    margin-top: 5px;
+}
+.footer-bottom li{
+    float: left;
+    list-style: none;
+
+}
+.footer-bottom a{
+    
+    font-size: 70%;
+}
+.footer-bottom-address{
+    color: rgb(136,136,136);
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 10px;
+}
+.footer-bottom-prountion{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: rgb(214,214,214);
+}
+.footer-bottom-word{
+    margin-top: 8px;
+    color: rgb(85,85,85);
+    font-size: 10px;
+}
+.footer-bottom div{
+    width: 22px;
+    height: 25px;
+    padding-left: 20px;
+    margin-top: 3px;
+    background-image:url(../images/china.png);
+    background-repeat: no-repeat;
+    background-size: 37%;
+    float: right;
+    font-size: 60%;
+
+}
+
+@media screen and (max-width: 1068px) {
+    .header-bottom{
+        width: 692px;
+    }
+    .main-help h2{
+        font-size: 28px;
+    }
+    .main-update h2{
+        font-size: 30px;
+    }
+    .main-maintain h3{
+        font-size: 24px;
+    }
+    .main-talk h3{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .main-talk p{
+        margin-bottom: 17px;
+    }
+    .header-top-nav{
+        width: 100%;
+    }
+    .main-class-word{
+        top: 110px;
+    }
+    .header-top-nav ul{
+        width: 100%;
+        margin: 0px;
+    }
+    .header-bottom h1{
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 32px;
+    }
+    .bottom-search{
+        width: 572px;
+    }
+    .bottom-search-right{
+        width: 520px;
+    } 
+
+    .header-bottom p{
+        font-size:18px;
+    }
+    .main-help-list {
+        width: 880px;
+    }
+    .help-list-part{
+        width: 293.3px;
+        margin-bottom: 48px;   
+    }
+    .main-update h2,.main-update p,.main-update-word_1,.main-update-word_2{
+        text-align: center;
+    }
+    .main-update-word_1,.main-update-word_2{
+        font-size: 19px;
+    }
+    .main-update p{
+        font-size: 18px;
+    }
+    .update-list,.main-update{
+        width: 695px;
+    }
+
+    .main-update-picture{
+        margin: 0px auto;
+        float: none;
+    }
+    .main-update-list{
+        height: 650px;
+    }
+    .main-maintain{
+        width: 900px;
+        height: 485px;
+    }
+    .main-maintain-know,.main-maintain-do{
+        float:none;
+        margin: 0px auto;
+        width: 695px;
+        height: 200px;
+    }
+    .maintain-know-picture,.maintain-do-picture{
+        float: left;
+
+    }
+    .maintain-do-picture img{
+        width: 230px;
+        height: auto;
+    }
+    .main-maintain-know{
+        margin-top: 50px;
+    }
+    .main-maintain-do{
+
+    }
+    .maintain-know-word,.maintain-do-word{
+        margin-top: 18px;
+        margin-left: 13px;
+        width: 405px;
+        float: left;
+       
+    }
+    /*.maintain-do-word{
+        margin-left: 10px;
+    }*/
+    .main-care h4{
+        font-size: 19px;
+    }
+    .main-care{
+        width: 685px;
+    }
+    .main-class{
+    /*width: 100%;*/
+    /*background-image: url(../images/today-at-apple-workshop-banner.image.large_2x.jpg);*/
+    /*background-repeat: no-repeat;*/
+    height: 410px;
+    /*background-position: center;*/
+   
+    }
+    .class-word{
+        padding-right: 385px;
+        width: 300px;
+    }
+    .main-class-word h2{
+        font-size: 30px;
+        width: 280px;
+        font-weight: 600;
+        line-height: 43px;
+    }
+    .main-talk-list{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .main-talk-other,.main-talk-profession{
+        width: 700px;
+        float: none;
+        margin: 50px auto 30px;
+        height: 140px;
+    }
+    .talk-profession-picture,.talk-other-picture{
+        float: left;
+    }
+    .talk-other-picture,.talk-profession-picture{
+        width: 220px;
+    }
+    .talk-profession-picture img,.talk-other-picture img{
+        width: 220px;
+        height: auto;
+    }
+    .talk-profession-word,.talk-other-word{
+        width: 410px;
+        float: left;
+        margin-left: 30px;
+    }
+    .main-protect{
+        width: 700px;
+        height: 210px;
+    }
+    .main-protect img{
+        width: 0px;
+        height: 0px;
+    }
+    .main-protect h3{
+        font-size: 24px;
+    }
+    .main-policy h4{
+        font-size: 19px;
+    }
+    .main-accident h2{
+        font-size: 29px;
+    }
+    .main-change h4{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1022px){
+    .header-top-nav ul{
+        width: auto;
+        padding: 0px 25px;
+    }
+    .top-nav-other,.top-nav-search{
+        width: 12.5%;
+        margin: 0px;
+        text-align: center;
+    }
+    .top-nav-apple,.top-nav-shop{
+        width: 6.25%;
+        margin: 0px;
+    }
+    .header-middle{
+        width: 100%;
+
+    }
+    .header-middle-other_2{
+        margin-right: 20px;
+    }
+    .header-middle-tit{
+        margin-left: 20px;
+    }
+
+    .header-middle-right{
+        /*margin-right: 20px;*/
+    }
+    
+    .footer-in{
+        width: auto;
+       
+    }
+
+    .footer-body-part{
+        width: 25%;
+    }
+    .main-policy,.main-accident,.main-maintain{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .main-help-list{
+        width: 100%;
+    }
+    .help-list-part{
+        width: 33.3%;
+    }
+}
+@media screen and (max-width: 766px){
+    .header-middle .arrow3{
+        display: block;
+    }
+    .header-top-nav ul{
+        width: auto;
+        padding: 0px 15px;
+        position: relative;
+    }
+    .header-middle-right{
+        display: none;
+    }
+    .header-middle-tit{
+        font-size: 17px;
+    }
+    .top-nav-other,.top-nav-search{
+        display: none;
+    }
+    .top-nav-line{
+        background-image: url(../images/QQ拼音截图20171203110111.png);
+        height: 44px;
+        width: 44px;
+        background-repeat: no-repeat;
+        background-size: 98%;
+        background-position: -10px 0px;
+    }
+    .top-nav-apple{
+        background-size: 50%;
+        position: absolute;
+        top: -2px;
+        left: 49%;
+    }
+    .top-nav-shop{
+        background-size: 38%;
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+  /*  .main-help-list{
+        width: 100%;
+    }*/
+    .help-list-part{
+        width: 33.3%;
+    }
+  /*  .main-protect{
+        width: 450px;
+    }
+*/
+    .main-class-word{
+        padding-right: 0px;
+    }
+    .main-maintain{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .footer{
+        height: 360px
+    }
+    .footer-in{
+        height: 300px;
+    }
+    .footer-body-part ul li{
+        display: none;
+    }
+    .footer-body-part{
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        float: none;
+        margin-top: 0px;
+        border-bottom: 1px solid rgb(222,222,222);
+    }
+    .footer-bottom-address{
+        display: block;
+    }
+     .footer-bottom{
+        position: relative;
+        height: 60px;
+        margin-top: 38px;
+     }
+    .footer-bottom div{
+        /*float: none;
+        background-size: 40%;*/
+        position: absolute;
+        top: -33px;
+    }
+    .footer-body-part h5{
+        font-size: 10.5px;
+        font-weight: 300;
+        
+    }
+    .footer-body{
+        border: 0px solid white;
+        height:190px;
+        padding-bottom: 0px; 
+        border-top: 1px solid rgb(222,222,222);
+    }
+    .footer-body-bottom p{
+        margin-top: 20px;
+    }
+    .footer-bottom-word{
+        font-size: 10.5px;
+    }
+    .footer-body-bottom{
+        font-size: 12px;
+    }
+    /*.footer-bottom div*/
+}
+@media screen and (max-width: 736px){
+    .header-middle .arrow3{
+    display: none;
+    }
+     .header-middle .arrow4{
+    display: block;
+    }
+      .header{
+        height: 94px;
+        background-image: none;
+    }
+    .header-bottom{
+       position: static;
+    }
+    .header-bottom h1,.header-bottom p{
+        color: black;      
+        
+    }
+
+    .header-bottom p{
+        font-weight: 200;
+    }
+    .header-bottom h1{
+        font-size: 27px;
+    }
+    .bottom-search-right{
+        height: 40px;
+        border: 1px solid rgb(235,235,235);
+        border-radius: 3px;
+        line-height: 40px;
+    }
+    .button_1{
+        width:45px;
+        height: 40px;
+        background-size: 45%;
+}
+@media screen and (max-width: 734px){
+     .bottom-search{
+    width: 100%;
+    }
+    .header-bottom{
+        /*width: 100%;*/
+        margin-right:4%;
+        margin-left:4%;
+        width: auto;
+    }
+    .main-help h2{
+        font-size: 24px;
+    }
+    .main-update h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .help-list-part{
+        width: 50%;
+    }
+    .main-maintain{
+        height: 710px;
+        border-bottom: none;
+    }
+    .main-update-list,.main-maintain,.main-care,.main-class-word,.main-talk,.main-protect-word{
+        padding: 0px 35px;
+    }
+    .main-update,.main-update-list,.update-list,.main-talk{
+        width: auto;
+    }
+    .main-talk-list,.main-talk-other,.main-talk-profession{
+        width: auto;
+    }
+    .main-update p{
+        font-size: 16.5px;
+    }
+    .main-update a{
+        font-size: 18px;
+    }
+
+    .maintain-know-picture,.maintain-do-picture{
+        float: none;
+    }
+    .maintain-know-word{
+        clear: left;
+    }
+    .main-maintain-do,.maintain-do-word,.main-maintain,.main-maintain-know,.maintain-know-word{
+        width: auto;
+    }
+    .maintain-know-word{
+        margin-bottom: 20px;
+    }
+    .maintain-do-word{
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .maintain-know-word h3,.maintain-do-word h3{
+        font-size: 21px;
+    }
+    .maintain-know-word p,.maintain-do-word p{
+        font-size: 14px;
+    }
+    .main-care{
+        width: auto;
+        
+
+    }
+    .main-care h4{
+        font-size: 17px;
+        padding-top: 40px;
+        border-top: 1px solid rgb(235,235,235);
+    }
+    .main-care p{
+        font-size: 15px;
+        font-weight: 200;
+        /*word-spacing: 6px;*/
+    }
+    .main-class{
+        background-image: url(../images/today-at-apple-workshop-banner.image.small_2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 320px;
+        margin-top: 45px;
+        background-position: center;
+    }
+    .main-class-word p,.main-class-word h2{
+        color: black;
+        width: 100%;
+    }
+    .main-class-word{
+        position: static;
+        padding: 0px 35px;
+        width: auto;
+        border-bottom: 1px solid rgb(222,222,222);
+    }
+    .class-word{
+        width: auto;
+        padding:0px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .main-class-word h2{
+        font-size: 24px;
+    }
+    .main-talk-other{
+        width: 100%;
+        height: 400px;
+    }
+    .main-talk-profession{
+        height:  370px;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .main-talk-other{
+        margin-top: 80px;
+    }
+    .talk-profession-picture{
+        width: 370px;
+    }
+    .talk-other-picture{
+        width:350px; 
+    }
+    .talk-other-picture,.talk-profession-picture{
+        float: none;
+    }
+    .main-talk-other,.main-talk-profession{
+        width: auto;
+    }
+
+    .talk-other-word h3,.talk-profession-word h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .talk-other-word,.talk-profession-word{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .talk-other-word p,.talk-profession-word p{
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .talk-other-picture img{
+        width: 370px;
+        height: auto;
+    }
+    .talk-profession-picture img{
+        width: 370px;
+        height: auto;
+    }
+    .main-policy,.main-accident,.main-change,.main-protect{
+        width: 100%;
+        
+    }
+@media screen and (max-width: 722px){
+  
+    .header-middle-tit{
+        color: black;
+    }
+    .header-middle{
+        border-bottom: 0.8px solid rgb(174,165,154);
+    }
+    .bottom-search-right{
+        border: 1px solid #bbb;
+    }
+    
+    
+}
+
+@media screen and (max-width: 650px){
+
+    .main-maintain{
+        height: auto;
+    }
+    .maintain-do-word{
+        margin-bottom: 0px;
+    }
+    .top-nav-apple{
+        top: 3px;
+    }
+.bottom-search-right{
+        width: 80%;
+    }
+}
+}
+    
+@media screen and (max-width: 600px){
+/*    .header-bottom{
+        width: auto;
+    }*/
+   
+    .bottom-search-right{
+        width: 80%;
+
+        padding-right: 35px;
+    }
+}
+@media screen and (max-width: 500px){
+    .top-nav-apple{
+        top: -3px;
+        background-size: 70%;
+    }
+    }
+@media screen and (max-width: 460px){
+     .bottom-search-right{
+        width: 70%;
+    }
+    .top-nav-apple{
+        top: 20%;
+    }
+    .main-update-picture{
+        width: 100%;
+    }
+   .main-update-picture img{
+    max-width: 100%;
+    height: auto;
+   }
+   .main-protect-word{
+    width: 100%;
+   }
+       .talk-other-picture img,.talk-profession-picture img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 268px){
+    .header-middle .arrow3{
+        display: block;
+    }
+      .header-middle .arrow4{
+        display: none;
+    }
+    .header{
+    height: 280px;
+     background-size:
+    background-repeat: no-repeat;
+    background-position: center 30%;
+
+     }
+     .header{
+        height: 300px;
+        /*width: 100%;*/
+        background-size:  cover;
+        background-repeat: no-repeat;
+        background-position: -320px -20px;  
+    background-image: url(../images/homepage-hero.image.large_2x.jpg) ;
+    }
+    .header-middle-tit{
+        color: white;
+    }
+    .header-bottom h1{
+        font-size: 21px;
+        margin-top: 7px;
+    }
+    .header-bottom p{
+        font-size: 13px;
+        margin-top: 11px;
+        margin-bottom: 5px;
+    }
+    .bottom-search-right{
+        width: 53%;
+
+    }
+    .bottom-search{
+        margin-top: 20px;
+    }
+    .help-list-part img{
+        width: 45px;
+        height: auto;
+        margin-left: 10px;
+    }
+   /* .help-list-picture{
+        width: 45px;
+        height: 45px;
+    }*/
+    .main-update-picture img{
+        margin-top: 30px;
+    }
+    .main-update h2,.maintain-know-word h3,.maintain-do-word h3 {
+        font-size: 19px;
+    }
+    .main-update p{
+        font-size: 13.5px;
+    }
+    .main-update a{
+        font-size: 13px;
+    }
+    .main-update-word_1{
+        margin-top: 11px;
+    }
+    .main-update-word_2{
+        margin-top: 7.3px;
+    }
+    .main-update-list{
+        height: 508px;
+    }
+    .main-maintain-know img{
+        width: 165px;
+    }
+    .maintain-do-picture img{
+        width: 165px;
+    }
+    .maintain-know-word p,.maintain-do-word p{
+        font-size: 13px;
+    }
+    .main-care h4{
+        font-size: 16px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+    .main-care p{
+        font-size: 12px;
+    }
+    .main-care a{
+        font-size: 12px;
+    }
+    .talk-other-picture img,.talk-profession-picture img{
+        width: 165px;
+    }
+    .main-class-word h2{
+        font-size: 19px;
+    }
+  /*  .talk-profession-picture img{
+        width: 165px;
+    }*/
+}
