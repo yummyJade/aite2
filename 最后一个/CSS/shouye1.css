@@ -1,0 +1,102 @@
+.main-middle-1{
+	width: 1258px;
+	position: relative;
+	margin: 0px auto;
+}
+.main-middle-1 ul li{
+	list-style-type: none;
+}
+.newintroduce{
+	background-color: black;
+	width: 242px;
+	height: 878px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.newintroduce-word{
+	width: 152px;
+	height: 62px;
+	position: absolute;
+	top: 22px;
+	left: 0px;
+	background-color: rgb(183,3,4);
+	color: white;
+	font-weight: 600;
+	line-height: 60px;
+	font-size: 29px;
+	text-align: center;
+}
+.clothes-1{
+	width: 415px;
+	height: 517px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 263px;
+	
+}
+.clothes-2{
+	width: 497px;
+	height: 194px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 699px;
+	
+}
+.clothes-4{
+	width: 567px;
+	height: 336px;
+	background-color: black;
+	position: absolute;
+	top: 538px;
+	left: 263px;
+}
+.clothes-3{
+	width: 341px;
+	height: 339px;
+	background-color: black;
+	position: absolute;
+	top: 538px;
+	left: 263px;
+}
+.clothes-5{
+	width: 497px;
+	height: 298px;
+	background-color: black;
+	position: absolute;
+	top: 215px;
+	left: 699px;
+}
+.clothes-6{
+	width: 340px;
+	height: 339px;
+	background-color: black;
+	position: absolute;
+	top: 534px;
+	left: 854px;
+}
+.main-middle1-arrow{
+	width: 87px;
+	height: 878px;
+	position: relative;
+	left: 1171px;
+	top: 0px;
+}
+.main-middle1-arrow img{
+	margin-top: 345px;
+}
+.main-middle-2{
+	width: 770px;
+	height: 754px;
+	background-color: rgb(221,134,135);
+	border-left: 226px solid rgb(183,3,4);
+	border-top: 14px solid rgb(183,3,4);
+	border-right: 262px solid rgb(183,3,4);
+	border-bottom: 87px solid rgb(183,3,4);
+	
+	margin:0px auto;
+	margin-top: 57px;
+
+}

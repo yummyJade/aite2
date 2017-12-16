@@ -1,0 +1,107 @@
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+    body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+    td,th,caption { font-size:14px; }
+    h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+    address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+    a { color:#555; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    img { border:none; }
+    ol,ul,li { list-style:none; }
+    input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+    table { border-collapse:collapse; }
+    html {overflow-y: scroll;} 
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+    .clearfix { *zoom:1; }
+.container{
+    width: 100%;
+    /*background-color:rgb(90,209,242);*/
+    font-family: "Helvetica","arial","微软雅黑","Microsoft YaHei",simsun，sans-serif;
+}
+.nav{
+	width: 100%;
+	height: 53px;
+	background-color: black;
+}
+.famousfood_1{
+	display: none;
+		background-color:rgb(15,185,239);
+}
+.foodlist{
+	width: 258px;
+	height: 1000px;
+/*	background-color:rgb(90,209,242);*/
+	background-color: rgb(53,64,69);
+}
+.foodlist-2{
+	width: 23px;
+	height: 1000px;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 67px;
+	line-height: 50px;
+	color: rgb(90,209,242);
+	background-color: rgb(53,64,69);
+	/*position: relative;*/
+}
+.foodlist-2 img{
+	width: 37px;
+	height: auto;
+	/*position: absolute;*/
+	/*left: 5px;*/
+	margin-left: -5px;
+	margin-bottom: -10px;
+}
+.title{
+	height: 43px;
+	background-color:rgb(88,96,101);
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+}
+.title img{
+	height: 33px;
+	width: auto;
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 17px;
+
+}
+.title-word{
+	display: block;
+	float: left;
+	margin-left: 14px;
+	margin-top: 11px;
+}
+.place_title_1{
+	height: 60px;
+}
+.list{
+	line-height: 60px;
+	border-bottom: 2px solid rgb(88,96,101);
+	color: white;
+	font-size: 14px;
+	
+}
+.list span{
+	margin-left: 100px;
+}
+.list img{
+	height: 20px;
+	width: auto;
+	margin-left: 40px;
+	vertical-align: middle;
+}
+.food{
+	width: 258px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	background-color: rgb(88,96,101);
+	border-top: 2px solid rgb(53,64,69);
+	font-size: 14px;
+}
+/*.place_title_1 img{
+	transform: rotate(90deg);
+}*/
