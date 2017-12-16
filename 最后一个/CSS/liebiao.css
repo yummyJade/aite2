@@ -16,6 +16,7 @@
     .click-on-nav{
 		color: rgb(184,3,4);
 	}
+/*陈玉沅*/
 *{
 	padding:0px;
 	margin: 0px;
@@ -520,15 +521,4 @@ a:hover{
 	}
 }
 	
-@media screen and (max-width:1366px){
-
-	.mainbody{
-		width: 90%;
-	}
-	.forthleft{
-		width: 50%;
-	}
-	.forthright{
-		width: 50%;
-	}
-}
+	

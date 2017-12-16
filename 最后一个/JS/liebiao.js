@@ -1,8 +1,14 @@
-$(".main-bottom-photo-8").eq(0).mouseover(function(){
-	$(".main-bottom-photo-8-word").eq(0).fadeIn();
+//陈玉沅
+//出现红块
+var totalpage=13;//总页数
+var nowpage=1;
+var listsize=9
+
+$(".main-bottom-photo-8").mouseover(function(){
+	$(".main-bottom-photo-8-word").fadeIn();
 })
-$(".main-bottom-photo-8").eq(0).mouseleave(function(){
-	$(".main-bottom-photo-8-word").eq(0).fadeOut();
+$(".main-bottom-photo-8").mouseleave(function(){
+	$(".main-bottom-photo-8-word").fadeOut();
 })
 //点击导航栏文字
 for(var i=1;i<5;i++)
@@ -15,9 +21,7 @@ for(var i=1;i<5;i++)
 }
 //翻页
 
-var nowpage=1;
-var totalpage=13;
-var listsize=9
+
 function addli(){
 	var ulhtml=$(".main-bottom-photo-page-1").eq(0).html();
 	for(var i=0;i<totalpage;i++)
